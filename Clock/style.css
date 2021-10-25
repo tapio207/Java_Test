@@ -1,0 +1,14 @@
+body{
+    background: rgb(78, 78, 78);
+}
+
+.yolo{
+    font-size: 60px;
+    box-sizing: border-box;
+    margin-left: 42%;
+    margin-top: 5rem;
+}
+span{
+    margin-right: 2px;
+    margin-left: 2px;
+}
