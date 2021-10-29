@@ -1,0 +1,23 @@
+riippuen mikä value on neljöllä, nii valikoit neljön sen mukaan.
+
+randNum 
+valikoi position sen mukaa.
+jos ja kun siin on toinen neljö, nii siirrä se tyhjää kohtaa
+
+
+ranNum
+valikoi mikä neljö on oikee
+työnnä sen värin arvot näyttöö
+
+tee switch jonka expression on randNum ja sen perusteella katot mitä cases do
+
+if i click the neljö ja se on true, niin voitto
+else poista neljä jota klikkasit
+
+tee joka neljölle array jossa on sen num value ja true/false value
+
+array jonka index 0 = nappiKyseessä index 1 = true/false value
+
+napin value ei tartte olla false vaan sen värin?
+
+jos klikkaan neljöö ja sen index 2 = true, niin voitto ja jos valse, nii häviö
