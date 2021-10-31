@@ -143,7 +143,7 @@ function btnYksi(){
 if(arr1[2] == true){
 oikein();
 }else{
-väärin();
+väärinYksi();
 }
 }
 
@@ -151,7 +151,7 @@ function btnKaksi(){
 if(arr2[2] == true){
 oikein();
 }else{
-väärin();
+väärinKaksi();
 }
 }
 
@@ -159,7 +159,7 @@ function btnKolme(){
 if(arr3[2] == true){
 oikein();
 }else{
-väärin();
+väärinKolme();
 }
 }
 
@@ -167,7 +167,7 @@ function btnNeljä(){
 if(arr4[2] == true){
 oikein();
 }else{
-väärin();
+väärinNeljä();
 }
 }
 
@@ -175,7 +175,7 @@ function btnViisi(){
 if(arr5[2] == true){
 oikein();
 }else{
-väärin();
+väärinViisi();
 }
 }
 
@@ -183,7 +183,7 @@ function btnKuusi(){
 if(arr6[2] == true){
 oikein();
 }else{
- väärin();
+ väärinKuusi();
 }
 }
 
@@ -195,17 +195,26 @@ function oikein(){
 document.getElementById("rgbValue").innerHTML = "Oikein";
 }
 
-function väärin(){
-document.getElementById("rgbValue").innerHTML = "Väärin";
-
+function väärinYksi(){
+document.getElementById("mVäri").style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 0 + ")";
+}
+function väärinKaksi(){
+document.getElementById("fVäri").style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 0 + ")";
+}
+function väärinKolme(){
+document.getElementById("fVäri2").style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 0 + ")";
+}
+function väärinNeljä(){
+document.getElementById("fVäri3").style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 0 + ")";
+}
+function väärinViisi(){
+document.getElementById("fVäri4").style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 0 + ")";
+}
+function väärinKuusi(){
+document.getElementById("fVäri5").style.backgroundColor = "rgb(" + 0 + "," + 0 + "," + 0 + ")";
 }
 
-console.log(arr1);
-console.log(arr2);
-console.log(arr3);
-console.log(arr4);
-console.log(arr5);
-console.log(arr6);
-console.log(neljö);
+
+
 
 }
