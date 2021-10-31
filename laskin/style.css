@@ -1,0 +1,32 @@
+table, th{
+    border: solid black 1px;
+    padding: 20px;
+    
+}
+body{
+    font-size: 25px;
+}
+
+td{
+ border: solid black 1px;
+}
+
+th{
+    padding: 0px;
+}
+
+button{
+    display: flex;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+#is{
+    padding-top: 135px;
+    padding-bottom: 135px;
+}
+
+#pohjadiv{
+    padding: 20px;
+}
