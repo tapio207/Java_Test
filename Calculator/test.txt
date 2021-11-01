@@ -1,0 +1,28 @@
+luku on 10 x 5 / 2 + 7 - 6 = 26
+arr = [10, "x", 5, "/", 2, "+", 7, "-", 6] index = 8
+
+lasku pitäs laskea alus loppuu laskujärjestyksessä joka kerta
+tarviin loopin joka looppaa kunne index in pienenpi kuin 2
+loopin aikana lasketaan merkin edellä ja takanaoleva luku yhteen
+
+
+
+
+tee loop 
+
+eti x 
+eti x index
+laske luvut yhteen
+poista luvut ja x arraysta
+laita tilalle laskettu luku
+jatka laskuja 
+printtaa tulos
+
+
+0, 1, 2, 3, 4, 5, 6  index
+3  +  5  x  3  -  3
+2  +  x  j  y  -  3
+2  +  x  j  -  3
+2  +  j  -  3
+2  +  v  j  -  3
+2  +  v  -  3

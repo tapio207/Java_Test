@@ -1,0 +1,75 @@
+table, th{
+    border: solid black 1px;
+    padding: 20px;
+    
+}
+
+table{
+    background-color: rgb(104, 104, 104);
+
+}
+
+body{
+    font-size: 25px;
+}
+
+td{
+
+ max-height: 70px;
+ max-width: 53px;
+ height: 70px;
+ width: 53px;
+}
+
+th{
+    padding: 0px;
+    background-color: rgb(233, 233, 233);
+}
+
+button{
+    display: inline;
+    float: none;
+
+    font-size: 25px;
+    border: none;
+    background-color: rgb(179, 179, 179);
+
+    max-height: 70px;
+    max-width: 53px;
+    height: 70px;
+    width: 53px;
+    position: relative;
+    left: 2px;
+    margin-top: 3px;
+
+}
+
+
+
+#is{
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+
+#pohjadiv{
+display: inline-block;
+overflow: hidden;
+max-width: 240px;
+max-height: 50px;
+top: 3px;
+position: relative;
+}
+#pohja{
+height: 50px;
+width: 240px;
+margin-bottom: 15px;
+
+}
+
+
+.laskin{
+position: absolute;
+top:200px;
+left: 300px;
+
+}
