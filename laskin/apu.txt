@@ -1,3 +1,0 @@
-convert sting in array to a num by using Number(str) before the.. lasku xD
-
-make the string in to a num before it goes in to an array
