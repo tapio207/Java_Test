@@ -411,14 +411,8 @@ newDiv4.style.left = leftPos + 'px';
 newDiv4.style.top = topPos + 'px';
 
 
-const CoinImg = document.createElement("img");
-CoinImg.id = "CoinImg";
-CoinImg.className = "CoinImg";
-CoinImg.src = "../assets/Coin.png";
-
-
 document.getElementById("yolo").appendChild(newDiv4);
-document.getElementById("Coin").appendChild(CoinImg);
+
 
 
 break;

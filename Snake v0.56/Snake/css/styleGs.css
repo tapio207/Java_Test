@@ -62,7 +62,7 @@ bottom: 34rem;
 }
 
 .Coins{
-    background-color: rgb(255, 238, 6);
+    background-image: url("../assets/Coin.png");
     width: 10px;
     height: 10px;
 }
