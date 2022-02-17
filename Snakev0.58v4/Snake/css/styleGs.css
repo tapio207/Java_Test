@@ -1,0 +1,202 @@
+
+.Wall{
+    background-color: rgb(160, 160, 160);
+    width: 10px;
+    height: 10px;
+
+}
+
+.Floor{
+    background-color: rgb(0, 0, 0);
+    width: 10px;
+    height: 10px;
+
+}
+
+.Player{
+    background-color: rgb(0, 255, 0);
+    width: 10px;
+    height: 10px;
+    z-index: 1000;
+
+
+}
+
+.Enemy{
+    background-color: rgb(255, 0, 0);
+    width: 10px;
+    height: 10px;
+    z-index: 1000;
+
+    
+}
+
+.Battle{
+    background-color: rgb(88, 200, 228);
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    left: 50px;
+    top: 100px;
+    
+}
+
+.WinBlocks{
+background-color: rgb(255, 0, 234);
+width: 10px;
+height: 10px;
+
+
+
+
+}
+
+
+#Stats{
+    position: absolute;
+    left: 19rem;
+    top: 47rem;
+}
+
+#AttBtn{
+position: relative;
+top: 12rem;
+left: 1rem;
+
+padding: 7px;
+padding-right: 10px;
+
+}
+
+#Money{
+position: absolute;
+left: 0.5rem;
+bottom: 34rem;
+}
+
+.Coins{
+    background-image: url("../assets/Coin.png");
+    width: 10px;
+    height: 10px;
+}
+
+.o1Shadow{
+    background-color: rgb(70, 70, 70);
+    width: 10px;
+    height: 10px;
+}
+
+#veijari{
+
+font-size: 7px;
+color: rgb(255, 255, 255);
+}
+
+.veijari{
+    position: absolute;
+    left: 50rem;
+    top: 30rem;
+    background-color: rgb(172, 172, 172);
+    height: 300px;
+    width: 300px;
+    overflow: scroll;
+}
+
+#WallPoss{
+font-size: 16px;
+}
+#RandomScreenText{
+position: absolute;
+left: 50rem;
+top: 28rem;
+}
+
+
+/*    Scenes    */
+
+
+#indexScene{
+display: block;
+}
+
+#GsMenuScene{
+display: none;
+}
+
+#SelectMapScene{
+display: none;
+}
+
+#GameStartedScene{
+display: none;
+}
+
+
+/*    Scenes    */
+
+#MpImg:hover{
+cursor: pointer;
+}
+
+#FirstMapS:hover{
+cursor: pointer;
+}
+
+/*    GameMenu    */
+
+#ItemShopOpen{
+display: none;
+}
+#UpgradeShopOpen{
+display: none;
+}
+#ItemShop:hover{
+cursor: pointer;
+}
+#Upgrade:hover{
+cursor: pointer;
+}
+
+#ItemShop{
+position: absolute;
+left: -350px; 
+}
+
+#Upgrade{
+position: absolute;
+left: 300px;
+}
+
+#ItemShopOpenImg{
+width: 1200px;
+height: 840px;
+}
+#UpgradeShopOpenImg{
+width: 1200px;
+height: 840px;
+}
+
+.shopBackBtn{
+width: 120px;
+height: 60px;
+background-color: black;
+color: wheat;
+position: absolute;
+top: 20px;
+right: 400px;
+text-align: center;
+}
+
+#YourMoney{
+display: none;
+}
+
+#YourMoneyTxt{
+position: absolute;
+top: 30px;
+right: 250px;
+font-size: 22px;
+font-weight: bold;
+
+}
+/*    GameMenu    */

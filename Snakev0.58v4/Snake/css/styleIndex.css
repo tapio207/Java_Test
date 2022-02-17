@@ -1,0 +1,81 @@
+.otsikko {
+    text-align: center;
+    position: relative;
+    top: 9rem;
+    width: 170px;
+    left: 40%;
+
+}
+
+.valikko{
+text-align: center;
+position: relative;
+top: 20rem;
+width: 170px;
+height: 200px;
+left: 40%;
+}
+
+.vaikeusTs{
+text-align: center;
+position: relative;
+top: 25rem;
+left: 40%;
+width: 170px;
+}
+
+#vaikeusP{
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+#minusBtn, #plusBtn{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#startNew{
+height: 50px;
+width: 150px;
+position: relative;
+left: 0;
+bottom: 3rem;
+background-color: rgb(182, 182, 182);
+padding: 15px 50px;
+}
+
+#comingSoon1{
+height: 50px;
+width: 150px;
+position: relative;
+
+}
+
+#comingSoon2{
+height: 50px;
+width: 150px;
+position: relative;
+right: 0;
+top: 3rem;
+
+}
+
+#mainOts{
+background-color: rgb(153, 153, 153);
+width: 450px;
+height: 100px;
+position: relative;
+left: -140px;
+text-align: center;
+border-radius: 5% 50%;
+
+}
+
+#otsikko{
+position: relative;
+top: 2rem;
+
+}

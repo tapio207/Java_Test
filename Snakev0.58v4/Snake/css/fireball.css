@@ -1,0 +1,193 @@
+.FireBallsLeft{
+z-index: 1000;
+position: absolute;
+height: 10px;
+width: 10px;
+background-image: url(../assets/FireBallLeft.png);
+
+}
+
+.FireBallsRight{
+z-index: 1000;
+position: absolute;
+height: 10px;
+width: 10px;
+background-image: url(../assets/FireBallRight.png);
+
+}
+
+.FireBallsUp{
+z-index: 1000;
+position: absolute;
+height: 10px;
+width: 10px;
+background-image: url(../assets/FireBallUp.png);
+
+}
+
+.FireBallsDown{
+z-index: 1000;
+position: absolute;
+height: 10px;
+width: 10px;
+background-image: url(../assets/FireBallDown.png);
+
+}
+
+
+.MeleeAttackLeft{
+z-index: 1000;
+position: absolute;
+height: 10px;
+width: 10px;
+background-color: rgb(209, 209, 209);
+
+}
+
+.MeleeAttackRight{
+z-index: 1000;
+position: absolute;
+height: 10px;
+width: 10px;
+background-color: rgb(209, 209, 209);
+
+}
+
+.MeleeAttackUp{
+z-index: 1000;
+position: absolute;
+height: 10px;
+width: 10px;
+background-color: rgb(209, 209, 209);
+
+}
+
+.MeleeAttackDown{
+z-index: 1000;
+position: absolute;
+height: 10px;
+width: 10px;
+background-color: rgb(209, 209, 209);
+
+}
+
+
+#MeleeAttack1Left{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword1thLeft.png);
+
+
+}
+
+#MeleeAttack1Right{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword1thRight.png);
+
+    
+}
+
+#MeleeAttack1Up{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword1thUp.png);
+
+    
+}
+
+#MeleeAttack1Down{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword1thDown.png);
+
+
+}
+
+#MeleeAttack2Left{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword2thLeft.png);
+
+    
+}
+
+#MeleeAttack2Right{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword2thRight.png);
+
+    
+}
+
+#MeleeAttack2Up{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword2thUp.png);
+
+
+}
+
+#MeleeAttack2Down{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword2thDown.png);
+
+    
+}
+
+#MeleeAttack3Left{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword3thLeft.png);
+
+    
+}
+
+#MeleeAttack3Right{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword3thRight.png);
+
+
+}
+
+#MeleeAttack3Up{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword3thUp.png);
+
+    
+}
+
+#MeleeAttack3Down{
+    z-index: 1000;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-image: url(../assets/SwordAssets/sword3thDown.png);
+
+    
+}
