@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Started</title>
+    <link rel="stylesheet" href="../css/fireball.css">
+    <link rel="stylesheet" href="../css/styleIndex.css">
+    <link rel="stylesheet" href="../css/GsMenu.css">
+    <link rel="stylesheet" href="../css/SelectMap.css">
+
+    <link rel="stylesheet" href="../css/styleGs.css">
+
+    <script src="../scriptit/Map.js"></script>
+    <script src="../scriptit/Hp.js"></script>
+    <script src="../scriptit/scriptIndex.js"></script>
+    <script src="../scriptit/fireball.js"></script>
+    <script src="../scriptit/SwitchScene.js"></script>
+    <script src="../scriptit/Enemys.js"></script>
+    <script src="../scriptit/MeleeAttack.js"></script>
+    <script src="../scriptit/StartBattle.js"></script>
+    <script src="../scriptit/mapGeneration.js"></script>
+    <script src="../scriptit/Coins.js"></script>
+    <script src="../scriptit/Movement.js"></script>
+    <script src="../scriptit/Engine.js"></script>
+    
+</head>
+<body>
+
+<div id="indexScene">
+
+
+    <div class="otsikko">
+    <main id="mainOts">
+    <h1 id="otsikko"> Dungeon Crawler </h1>
+    </main>
+    </div>
+    <div class="valikko">
+        <button id="startNew" href=""> New Game</button>
+        <button id="comingSoon1">Coming Soon</button>
+        <button id="comingSoon2">Coming Soon</button>
+    </div>
+    <div class="vaikeusTs"> 
+        <button id="minusBtn">-</button> <p id="vaikeusP">Normal</p> <button id="plusBtn">+</button>
+    </div>
+
+
+</div>
+
+<div id="GsMenuScene">
+
+
+    <div id="MapSelector">
+    
+        <img id="MpImg" src="../assets/MapSelect.png" alt="wrong">
+        
+        
+        <div id="Stats">
+    
+        </div>
+        <div id="ItemShop">
+        <img src="../assets/ItemShop.png" alt="Wrong">
+        </div>
+        <div id="Upgrade">
+        <img src="../assets/UpgradeShop.png" alt="Wrong">
+        </div>
+
+    </div>
+
+    <div id="ItemShopOpen">
+    <img id="ItemShopOpenImg"  src="../assets/ItemShopOpenInside.png" alt="">
+    <div class="shopBackBtn">Go Back</div>
+    <div id="Item1" class="ItemShopItems"></div>
+    <div id="Item2" class="ItemShopItems"></div>
+    <div id="Item3" class="ItemShopItems"></div>
+    <div id="Item4" class="ItemShopItems"></div>
+    <div id="Item5" class="ItemShopItems"></div>
+    <div id="Item6" class="ItemShopItems"></div>
+    </div>
+
+    <div id="UpgradeShopOpen">
+    <img id="UpgradeShopOpenImg" src="../assets/UpgradeShopOpenInside.png" alt="">
+    <div class="shopBackBtn">Go Back</div>
+    <div id="Upgrade1" class="UpgradeShopItems"></div>
+    <div id="Upgrade2" class="UpgradeShopItems"></div>
+    <div id="Upgrade3" class="UpgradeShopItems"></div>
+    <div id="Upgrade4" class="UpgradeShopItems"></div>
+    <div id="Upgrade5" class="UpgradeShopItems"></div>
+    <div id="Upgrade6" class="UpgradeShopItems"></div>
+    </div>
+
+
+</div>
+
+<div id="YourMoney">
+    <p id="YourMoneyTxt">Money: 0$ </p>
+</div>
+
+<div id="SelectMapScene">
+
+
+    
+<div id="Maps">
+
+
+<div id="Map1"><img id="FirstMapS" src="../assets/Map.png" alt=""> </div>
+<div id="Map2"><a href=""><img src="../assets/Map.png" alt=""> </a> </div>
+<div id="Map3"><a href=""><img src="../assets/Map.png" alt=""> </a> </div>
+<div id="Map4"><a href=""><img src="../assets/Map.png" alt=""> </a> </div>
+<div id="Map5"><a href=""><img src="../assets/Map.png" alt=""> </a> </div>
+<div id="Map6"><a href=""><img src="../assets/Map.png" alt=""> </a> </div>
+
+
+</div>
+
+<div id="Lines">
+
+<div id="Line1"> --------------------------- </div>
+<div id="Line2"> --------------------------- </div>
+<div id="Line3"> --------------------------- </div>
+<div id="Line4"> --------------------------- </div>
+<div id="Line5"> --------------------------- </div>
+<div id="Line6"> --------------------------- </div>
+
+</div>
+
+</div>
+
+
+<div id="GameStartedScene">
+
+
+
+<div id="EnemyDiv">
+
+
+</div>
+
+
+    
+<div id="Fire">
+
+</div>
+<div id="MeleeAttackDiv">
+
+</div>
+
+
+<div id="RandomScreenText">
+<p id="WallPoss">These are just wall position's</p>
+</div>
+
+
+<div class="veijari">
+<p id="veijari">joku</p>
+</div>
+
+<div id="Stats">
+    <div id="Health">
+    <img id="Heart5" src="../assets/FullHpHeart.png" alt="Something went wrong">
+    <img id="Heart4" src="../assets/FullHpHeart.png" alt="Something went wrong">
+    <img id="Heart3" src="../assets/FullHpHeart.png" alt="Something went wrong">
+    <img id="Heart2" src="../assets/FullHpHeart.png" alt="Something went wrong">
+    <img id="Heart1" src="../assets/FullHpHeart.png" alt="Something went wrong">
+    </div>
+
+    <div id="ManaPoints">
+    <p>MP: 100/100</p>
+
+    </div>
+    <div id="MoneyDiv">
+    <p id="Money"> Money: 00 </p>
+    </div>
+
+</div>
+
+<div id="mother">
+
+</div>
+
+
+
+
+<div id="yolo">
+
+</div>
+
+<div id="CoinDiv">
+
+</div>
+
+</div>
+
+
+
+
+
+
+</body>
+</html>

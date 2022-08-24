@@ -1,0 +1,536 @@
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ][ ][ ] [ ][ ][ ]    [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] 
+
+
+2x2 chunks made out of 3x3 chunks made out of 3x3 blocks
+
+
+arr1.
+  1.{  [w][w][w] [w][w][w] [w][w][w]  }   2.{  [w][w][w] [w][w][w] [w][w][w] }      3.{   [w][w][w] [w][w][w] [w][w][w]   }    4.{   [w][w][w] [w][w][w] [w][w][w]  }
+  5.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }   6.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }      7.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }    8.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+  9.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  10.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     11.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }   12.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+ 13.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  14.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     15.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   16.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 17.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  18.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     19.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   20.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 21.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  22.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     23.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   24.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+ 25.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  26.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     27.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }   28.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 29.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  30.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     31.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }   32.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 33.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  34.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     35.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }   36.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+arr2
+ 37.{  [w][w][w] [w][w][w] [w][w][w]  }  38.{  [w][w][w] [ ][ ][ ] [w][w][w] }     39.{   [w][w][w] [w][w][w] [w][w][w]   }   40.{   [ ][ ][ ] [w][w][w] [w][w][w]  }
+ 41.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  42.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ] }     43.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   44.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 45.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  46.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ] }     47.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   48.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+ 49.{  [w][ ][ ] [w][w][w] [w][w][w]  }  50.{  [w][ ][ ] [w][w][w] [w][w][w] }     51.{   [w][ ][ ] [w][w][w] [w][w][w]   }   52.{   [w][w][w] [ ][ ][ ] [ ][ ][w]  }
+ 53.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  54.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     55.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }   56.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 57.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  58.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }     59.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }   60.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+ 61.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  62.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }     63.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   64.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 65.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  66.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     67.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   68.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 69.{  [w][w][w] [w][w][w] [ ][ ][ ]  }  70.{  [w][w][w] [w][w][w] [w][w][w] }     71.{   [w][w][w] [ ][ ][ ] [w][w][w]   }   72.{   [w][w][w] [w][w][w] [w][w][w]  }
+
+
+arr3
+ 73.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  74.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }     75.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   76.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 77.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  78.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }     79.{   [w][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   80.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 81.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  82.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }     83.{   [w][ ][ ] [w][ ][ ] [ ][ ][ ]   }   84.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+ 85.{  [w][ ][ ] [w][w][w] [w][w][w]  }  86.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }     87.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }   88.{   [w][w][w] [ ][ ][ ] [ ][ ][w]  }
+ 89.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  90.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }     91.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }   92.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+ 93.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  94.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }     95.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }   96.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+ 97.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  }  98.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }     99.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }  100.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+101.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 102.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }    103.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }  104.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+105.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 106.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }    107.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }  108.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+arr4
+109.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 110.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }    111.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }  112.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+113.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 114.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ] }    115.{   [w][ ][ ] [ ][ ][ ] [ ][ ][ ]   }  116.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+117.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 118.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ] }    119.{   [w][ ][ ] [w][ ][ ] [ ][ ][ ]   }  120.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+121.{  [w][ ][ ] [w][w][w] [w][w][w]  } 122.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }    123.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }  124.{   [w][w][w] [ ][ ][ ] [ ][ ][w]  }
+125.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 126.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }    127.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }  128.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+129.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 130.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }    131.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]   }  132.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+
+133.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 134.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][ ] }    135.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }  136.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+137.{  [w][ ][ ] [ ][ ][ ] [ ][ ][ ]  } 138.{  [ ][ ][ ] [ ][ ][ ] [ ][ ][w] }    139.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][ ]   }  140.{   [ ][ ][ ] [ ][ ][ ] [ ][ ][w]  }
+141.{  [w][w][w] [w][w][w] [w][w][w]  } 142.{  [w][w][w] [w][w][w] [w][w][w] }    143.{   [w][w][w] [w][w][w] [w][w][w]   }  144.{   [w][w][w] [w][w][w] [w][w][w]  }
+
+
+
+2x2 chunks made out of 3x3 chunks made out of 3x3 blocks
+
+generate 4x9 arrays
+make function joka
+-lukee arrayt
+-tarkastaa onko arrayssä "w"
+-jos löytyy "w" arrayst, nii create "wall"div
+-jos tyhjä, nii create tyhjä div
+
+
+
+
+functio joka kattoo läpi myArr + (1-144);
+
+
+
+kato array
+kato array inside of an array
+käy yksi kerralla 1-9 läpi
+jos w niin seinä, o niin tyhjä
+
+
+numgen = 1 / forEach line 1
+array.lenght = 8
+for loop x 8
+for loop = 0
+check array[0] w/o?
+
+
+numgen kattoo arrayn content index
+
+36blokkii x 36blokkii
+
+1080
+
+
+muuta blokit numerojärjestyksee
+
+automatisoi
+blokin position 36x36blokkii
+
+
+0:
+hae block0
+
+
+laita eka blokki positioon esim 300px left,
+ 300px top.
+
+
+if kyseinenblokki
+
+
+
+
+
+i = 0 
+i++
+
+i = 4{
+
+topPos = topPos + 10;
+leftPos =leftPos - 360;
+i = 0
+
+}
+
+
+
+
+
+
+
+
+
+ tee blokki
+ laita sille position
+
+
+
+
+ x x x x x x
+ x x x x x x
+ x x x x x x
+ x x x x x x
+
+
+
+
+enemyMovement:
+
+find enemy pos
+
+take e in the pos and move it
+
+
+timer 1s
+
+ x x x x x x   x x x x x x   x x x x x x   x x x x x x 
+ x e x x x x   x x e x x x   x x x x x x   x x x x x x 
+ x x x x x x   x x x x x x   x x e x x x   x e x x x x 
+ x x x x x x   x x x x x x   x x x x x x   x x x x x x 
+
+
+
+joka blokin yhteydessä
+
+eArrPos = mapinInnerIndex;
+eInnerArrPos = joku;
+ePosArr.push(eArrPos);
+ePosArr.push(eInnerArrPos);
+
+
+aina kun painan alas
+ 
+var pulsOne = 0;
+var pulsTwo = 1;
+var eConArr = 0;
+var eConvArrInd = 0;
+
+for(let i = ePosArr.length; i > 0; i--){
+
+eConArr = ePosArr[pulsOne];
+eConvArrInd = ePosArr[pulsTwo];
+
+liike
+
+pulsOne = pulsOne + 2;
+pulsTwo = pulsTwo + 2;
+i--; }
+
+eArrPos = 17
+eInnerArrPos = 3
+ePosArr = [17, 3]
+pulsOne = 0
+pulsTwo = 1
+eConArr = 17
+eConvArrInd = 3
+liike
+ja säätö
+
+
+viholliset liikkuu samal ku ite,
+mut jos oot paikoillas +1s, nii ne liikkuu iteksee
+
+
+battle if win = e = o
+stats-
+
+
+
+var mapinIndex = 0;
+
+mapLayArr.forEach(e => {
+
+for(var joku = 0; joku <= 8; joku++){
+
+mapinIndex++;
+
+------------------------------------------------------
+var mapinIndex = 0;
+
+mapLayArr.forEach(e => {
+    
+for(var jokuk = 0; jokuk <= 8; jokuk++){
+var pkö = mapLayArr[mapinIndex][jokuk].includes(p);
+    
+if(pkö == true){
+playerArray = mapinIndex
+playerIndex = jokuk;            
+}
+else{                              
+}
+}
+mapinIndex++;
+}
+
+i = 7
+
+
+x 4 3 3 3 3 3 3 3 4 x
+x 4 3 2 2 2 2 2 3 4 x
+x 4 3 2 1 1 1 2 3 4 x
+x 4 3 2 1 p 1 2 3 4 x
+x 4 3 2 1 1 1 2 3 4 x
+x 4 3 2 2 2 2 2 3 4 x
+x 4 3 3 3 3 3 3 3 4 x
+x 4 4 4 4 4 4 4 4 4 x
+
+
+
+
+[ ][ ][ ] [ ] [4][4][4][4][4][4][4][4][4] [ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ] [4][3][25][26][27][28][29][3][4] [ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ] [4][3][24][9 ][10][11][12][3][4] [ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ] [4][3][23][8 ][1 ][2 ][13][3][4] [ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ] [4][3][22][7 ][p ][3 ][14][3][4] [ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ] [4][3][21][6 ][5 ][4 ][15][3][4] [ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ] [4][3][20][19][18][17][16][3][4] [ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ] [4][3][3][3][3][3][3][3][4] [ ][ ] [ ][ ][ ] 
+[ ][ ][ ] [ ] [4][4][4][4][4][4][4][4][4] [ ][ ] [ ][ ][ ] 
+
+
+laita ylös mitä on p+1 p-1
+switch jos se on o = o1
+       jos se on e = e1
+
+
+}
+
+
+var o1kö = mapLayArr[PlayerPositionArray][PlayerPositionIndex +1].includes(o)
+var e1kö = mapLayArr[PlayerPositionArray][PlayerPositionIndex +1].includes(o)
+var w1kö = mapLayArr[PlayerPositionArray][PlayerPositionIndex +1].includes(o)
+
+switch(true){
+case o1kö
+mapLayArr[PlayerPositionArray].splice(PlayerPositionIndex +1, 1);
+mapLayArr[PlayerPositionArray].splice(PlayerPositionIndex +1, 0, o1);
+break;
+
+case e1kö
+mapLayArr[PlayerPositionArray].splice(PlayerPositionIndex +1, 1);
+mapLayArr[PlayerPositionArray].splice(PlayerPositionIndex +1, 0, e1);
+break;
+
+case w1kö
+mapLayArr[PlayerPositionArray].splice(PlayerPositionIndex +1, 1);
+mapLayArr[PlayerPositionArray].splice(PlayerPositionIndex +1, 0, w1);
+break;
+
+
+}
+
+
+
+if o {
+  make o1, 4block radious
+}
+
+
+
+tarkasta PB1 = e, w, o?
+sen perusteel
+PBS1
+ja sit
+
+PBS1, 2, 3
+
+PB1.includes(e, w, o)
+
+switch(true){
+case e
+
+case w
+
+case o
+
+}
+
+PB2 = o
+
+splice
+
+splice 0, o2
+
+
+
+
+
+x = PBArr Ind / kerroin
+y = 3
+indValinta = 0;
+
+var x = 0
+var y = 0
+
+indValinta = 0;
+
+indValinta = x * y;
+
+
+
+e + 1
+
+w + 2
+
+o + 3
+
+if 1 nii?
+
+
+mis arrays? = 9
+ja if on tilaa noo var
+jos ei, like -12 nii skip
+
+
+
+
+playerArr = 24
+
+botArr = 8
+
+
+
+24 - 8 = 16
+
+
+8 - 24 = -16
+
+
+4 - 6 = -2
+
+
+0, 1 = 0
+2, 3, 4 = 1
+5, 6 = 2
+
+
+
+9
+
+when s is pressed{
+  create fireball
+  move it in loop untill wall or enemy
+  instakill
+
+}
+
+convert enemyPos in to an array
+unvert to int in other script
+
+
+
+while(blocked=false){
+  move
+}
+
+
+if(fBallPos +10 == any wallPos){
+  blocked = true
+}
+
+
+create block next to player.
+
+check if its blocked.
+move it
+check
+untill wall/enemy/coin
+
+
+
+if last left = fMoveLeft
+
+
+
+
+i got enemy pos
+i got fireball pos
+
+check if fireball hits anything
+-create fireball
+check if fireball hits anything +1 move
+-move fireball
+
+
+generate enemy in arr pos
+
+
+
+make enemys move again D;;;;
+
+var appendEnemyInd = spanw.lenght
+var appendEnemyID = "'" + "Enemy" + appendEnemyInd + "'";
+document.getElementById(appendEnemyID).style.left = 
+
+delete divs or just move the enemys
+how to track individual enemys
+
+
+ 
+
+enemy movement:
+-idle movement
+-follow player when seen
+
+
+oooo
+oeeo
+oeeo
+oeeo
+oooo
+
+
+hoida enemyt vanhal taval, mut täl kertaa vaa pixeleitten perusteel
+
+
+array of enemy pos.
+edit
+update
+
+array1(original pos)
+edit it 
+push to array2
+read array2
+make array1 = array 2
+clear arr2
+repeat
+
+
+
+press left
+check if wall
+if not, move
+
+
+
+get player pos
+get coin pos
+find in arr the match
+delete the coin
+update divs/money on screen
+
+
+Melee:
+player pos +/- 10px. create div
+
+
+
+
+
+
+
+
+
+
+
+
+
+Update v0.59 {
+
+For next update:
++1 enemy
+
+make coins by pixelpositioning <---- Done
+projectile weapon  <---- Done
+Better Movemen {   
+  -free movement?
+  -pixel positioning <--- Done
+}
+Better Hitbox function{
+  -pixelin mukainen
+
+}
+
+New Combat <---- 
+-add hp to enemys in the array? so fireball and hit wont be instakill <---- Done
+-make enemys attack you if they hit you   <----- Now
+-battlescreen back
+-add melee attack <--- Done.. ish (still do damage)
+
+}
+
+
